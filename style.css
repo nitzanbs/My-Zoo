@@ -1,6 +1,8 @@
 body{
     margin: 0;
     width: 100%;
+    background-image: url(./img/רקע\ חיות\ 2.jpg);
+    
 }
 
 .container{
@@ -32,7 +34,7 @@ body{
 
 .navbar {
   overflow: hidden;
-  background-color: #f1f1f1;
+  background-color: #6a00ff;
   padding: 20px 10px;
 }
 
@@ -124,6 +126,7 @@ body{
 }
 .footr{
     grid-area: footr;
+    bottom: 0;
 
 
     
@@ -138,6 +141,7 @@ body{
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
+    align-items: center;
 
 }
 .card{
@@ -158,8 +162,8 @@ body{
     padding:40px 0;
     background-color:#6a00ff;
     color:#4b4c4d;
-    opacity: 90%;
     width: 100%;
+    bottom: 0;
     
   }
   
